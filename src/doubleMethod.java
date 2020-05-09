@@ -3,6 +3,7 @@ public class doubleMethod {
 
 	public static void main(String args[]) {
 		System.out.println(add(54,46));
+		System.out.println(add(-542, 387));
 	}
 	
 	public static Double add(double num1, double num2) {
