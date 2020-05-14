@@ -19,6 +19,12 @@ class Student {
 		System.out.println(String.format("You are in level %d", level));
 	}
 	
+	
+	// lets add a static method to see how this would work here
+	public static void classGroup(String group) {
+		System.out.println(String.format("Student class group is: %s", group));
+	}
+	
 }
 public class instanceMethod {
 	
@@ -29,11 +35,13 @@ public class instanceMethod {
 		student1.name_of_student("Riz");
 		student1.grade(4.25);
 		student1.student_level(9);			
-	
+		student1.classGroup("Lime");
+		
 		Student student2 = new Student();
 		student2.name_of_student("Eeshal");
 		student2.grade(3.65);
 		student2.student_level(7);
+		student2.classGroup("Apple");
 	}
 		
 }
